@@ -1,0 +1,142 @@
+.fotter {
+    background: var(--Background---Secondary, #3b3b3b);
+    padding-bottom: 40px;
+}
+.footer {
+    padding: 40px 110px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.nft-market {
+    max-width: 260px;
+    color: #ccc;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.f-join {
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.f-get {
+    margin-top: 25px;
+    max-width: 290px;
+    color: #ccc;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+}
+.f-btn {
+    margin-top: 20px;
+    display: flex;
+    max-width: 420px;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--Text, #fff);
+}
+.last {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #ccc;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+hr {
+    margin-top: 37px !important;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.explore {
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.f-btn {
+    max-width: 400px;
+}
+.f-email {
+    margin-top: -1px;
+}
+.footer-first {
+    max-width: 320px;
+}
+.footer-s {
+    max-width: 420px;
+}
+@media (max-width: 1130px) {
+    .footer-s{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 780px) {
+    .f-second{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 580px) {
+    .f-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .f-btn button{
+        width: 400px;
+        margin-left: -20px;
+    }
+    .footer {
+        padding: 40px 40px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+}
+@media (max-width: 460px) {
+    .f-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .f-btn button{
+        margin-left: -20px;
+        width: 300px;
+    }
+    .footer {
+        padding: 40px 40px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+}

@@ -1,0 +1,16 @@
+* {
+    bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1280px;   
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgba(43, 43, 43, 1);
+}
+.header{
+  max-width: 1180px;
+  margin: 0 auto;
+  
+}

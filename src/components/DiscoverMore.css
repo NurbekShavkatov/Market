@@ -1,0 +1,94 @@
+.discover-more {
+    margin-top: 40px;
+}
+.discover-cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.discover-card {
+    max-width: 330px;
+    border-radius: 20px;
+    background: #3b3b3b;
+    padding-bottom: 25px;
+}
+.dancer {
+    margin-left: 30px;
+    margin-top: 5px;
+    display: flex;
+    gap: 12px;
+}
+.dancer-name {
+    color: var(--White, #fff);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.price {
+    margin-top: 27px;
+    margin-left: 30px;
+    margin-bottom: 8px;
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+.etherium {
+    margin-left: 30px;
+}
+.price-all {
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.d-btn-two {
+    display: flex;
+    justify-content: space-between;
+}
+.explore {
+    width: 300px !important;
+    color: var(--White, #fff);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+@media (max-width: 1080px) {
+    .d-n {
+        display: none;
+    }
+}
+@media (max-width: 730px) {
+    .discover-more {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    .d-n {
+        display: block;
+    }
+    .discover-cards {
+        margin-top: -1630px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .d-btn-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .d-btn {
+        margin-top: 1600px;
+    }
+}

@@ -1,0 +1,120 @@
+.trending-collection {
+    margin-top: 80px;
+}
+.title {
+    max-width: 395px;
+    color: var(--White, #fff);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.description {
+    max-width: 555px;
+    margin-top: 10px;
+    color: var(--White, #fff);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.cards {
+    
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.animals {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+.design {
+    margin-top: 15px;
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.fox{
+    margin-top: 10px;
+}
+.fox span{
+    
+    margin-left: 12px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+.card-btn{
+    margin-top: -3px;
+}
+
+@media (max-width: 1040px){
+    .cards {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .card3{
+        display: none;
+    }
+}
+@media (max-width: 730px){
+    .title {
+        margin-left: 30px;
+        max-width: 395px;
+        justify-content: center;
+        align-items: baseline;
+        text-align: center;
+        color: var(--White, #fff);
+        font-family: Work Sans;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        text-transform: capitalize;
+    }
+    .description {
+        margin-left: 45px;
+        max-width: 555px;
+        justify-content: center;
+        align-items: baseline;
+        text-align: center;
+        margin-top: 10px;
+        color: var(--White, #fff);
+        font-family: Work Sans;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        text-transform: capitalize;
+    }
+    .cards {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .card3{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+}
+@media (max-width: 375px){
+   
+}
